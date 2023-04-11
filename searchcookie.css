@@ -1,0 +1,87 @@
+.cookie-choices-info{background-color:rgba(56,66,75,.97)!important;line-height:normal!important;top:initial!important;bottom:0!important;font-family:inherit!important;-webkit-transform:translateZ(0);}.cookie-choices-info .cookie-choices-text{font-size:14px!important;color:#cee6ea!important}.cookie-choices-info .cookie-choices-button{font-weight:normal!important;color:#fff!important;margin-left:5px!important;padding:3px 6px!important;background:#3cafe0!important;border-radius:2px;letter-spacing:.8px;font-family:&#39;Quicksand&#39;;transition:all .4s linear}.cookie-choices-info .cookie-choices-button:nth-child(2){background:#f68c2e!important;transition:all .4s linear}.cookie-choices-info .cookie-choices-button:hover,.cookie-choices-info .cookie-choices-button:nth-child(2):hover{background:#282f36!important;transition:all .1s linear}
+      
+.goog-te-gadget {
+  font-size: 8px;
+  color: #4d90fea8;
+}
+.gsc-search-box {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: center;
+}
+      
+form {
+  margin: auto;
+}
+.gsc-input {
+  width: 500px;
+  max-width: 100%;
+  position: relative;
+}
+.gsc-input .after {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  transform: scale(0, 1);
+  transition: 0.3s;
+}
+.gsc-input span {
+  display: none;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 50%;
+  transition: margin 0.8s;
+  opacity: 0.8;
+  margin: 0;
+  left: 50%;
+  font-weight: 100;
+}
+.gsc-input span.in {
+  margin-bottom: 20px;
+}
+.ie .gsc-input {
+  line-height: 40px;
+}
+
+.gsc-input::-webkit-input-placeholder {
+   color: #888;
+}
+
+.gsc-input:-moz-placeholder {
+   color: #888;
+}
+
+.gsc-input:focus {
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+.gsc-input:focus::-webkit-input-placeholder { 
+	color: #efe;
+}
+
+.gsc-input:focus:-moz-placeholder {
+	color: #efe;
+}
+      @keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(42, 219, 250, 1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(42, 219, 250, 1), 0 2px 0 #000;
+    }
+}
+.fa {padding: 2px; font-size: 0px; width: 13px; height: 13px; text-align: center; text-decoration: none; margin: 5px 2px;}
+.fa:hover {opacity: 0.7;}
